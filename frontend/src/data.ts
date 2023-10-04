@@ -1,0 +1,40 @@
+import { Product } from './types/Product'
+
+export const sampleProducts: Product[] = [
+  {
+    name: 'iPhone 15 Pro Max',
+    slug: 'iphone-15-pro-max',
+    category: 'phones',
+    image: '../images/iphone.jpg',
+    price: 1499,
+    countInStock: 10,
+    brand: 'Apple',
+    rating: 4.5,
+    numReviews: 10,
+    description: 'It`s innovation baby',
+  },
+  {
+    name: 'Samsung Galaxy S23 Ultra',
+    slug: 'samsung-galaxy-s23-ultra',
+    category: 'phones',
+    image: '../images/samsung.jpg',
+    price: 1199,
+    countInStock: 16,
+    brand: 'Samsung',
+    rating: 4.7,
+    numReviews: 10,
+    description: 'It`s innovation baby',
+  },
+  {
+    name: 'Pixel 7',
+    slug: 'pixel-7',
+    category: 'phones',
+    image: '../images/pixel.jpg',
+    price: 999,
+    countInStock: 6,
+    brand: 'Google',
+    rating: 4.0,
+    numReviews: 10,
+    description: 'It`s innovation baby',
+  },
+]
