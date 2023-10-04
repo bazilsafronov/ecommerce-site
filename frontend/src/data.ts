@@ -37,4 +37,16 @@ export const sampleProducts: Product[] = [
     numReviews: 10,
     description: 'It`s innovation baby',
   },
+  {
+    name: 'Xiomi 12T Pro',
+    slug: 'xiomi-12t-pro',
+    category: 'phones',
+    image: '../images/xiomi.jpeg',
+    price: 899,
+    countInStock: 2,
+    brand: 'Xiomi',
+    rating: 4.3,
+    numReviews: 16,
+    description: 'It`s innovation baby',
+  },
 ]
